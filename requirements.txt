@@ -1,0 +1,11 @@
+# Motor HMC U(1)-Ising-Defectos 4D
+#
+# GPU (RTX 5090 / Blackwell, CUDA 12.x bajo WSL2):
+#   pip install -U "jax[cuda12]"
+#
+# CPU (validacion / smoke test):
+#   pip install -U "jax[cpu]"
+#
+# Probado con:
+jax>=0.4.30
+scipy>=1.10
